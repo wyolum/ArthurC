@@ -1,4 +1,4 @@
-update=Saturday 01 March 2014 05:54:16 PM IST
+update=Sat 01 Mar 2014 01:35:25 PM EST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -35,9 +35,6 @@ LibName1=i2gps_v1-libs/i2gps_v1
 version=1
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
 LibDir=
 NetFmtName=
 RptD_X=0
@@ -45,5 +42,5 @@ RptD_Y=100
 RptLab=1
 LabSize=50
 [eeschema/libraries]
-LibName1=arthurc-libs/arthurc
-LibName2=arthurc-libs/power
+LibName1=libs/arthurc
+LibName2=libs/power
