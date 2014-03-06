@@ -1,725 +1,899 @@
-# EESchema Netlist Version 1.1 created  5/2/2012 7:03:59 PM
-(
- ( /4F9A5A10 d_VMD2  D4 RB886GT2R {Lib=DIODESCH}
-  (    1 /i2gps_v1_rtc/BAT )
-  (    2 /GPS_BAT )
- )
- ( /4F9A5A02 d_VMD2  D3 RB886GT2R {Lib=DIODESCH}
-  (    1 +3.3V )
-  (    2 /GPS_BAT )
- )
- ( /4F45D5FA PIN_ARRAY-6X1  P7 GPS_UP501 {Lib=CONN_6}
-  (    1 /GPS_Rx )
-  (    2 /GPS_Tx )
-  (    3 GND )
-  (    4 +3.3V )
-  (    5 /GPS_BAT )
-  (    6 /1pps )
- )
- ( /4F3FEE0A Xtal_SMD2  X1 CRYSTAL_2 {Lib=CRYSTAL_2}
-  (    1 /PB6 )
-  (    2 /PB7 )
- )
- ( /4F3FE37F PIN_ARRAY-6X1  P3 BootDrive {Lib=CONN_6}
-  (    1 GND )
-  (    2 GND )
-  (    3 /i2gps_v1_rtc/5V0 )
-  (    4 /TXD )
-  (    5 /RXD )
-  (    6 /Boot )
- )
- ( /4EC65609 I/O  B19 I/O {Lib=I/O}
-  (    1 /i2gps_v1_rtc/5V0 )
- )
- ( /4EC65606 I/O  B18 I/O {Lib=I/O}
-  (    1 GND )
- )
- ( /4EC1290E c_0805  C11 22p {Lib=C}
-  (    1 GND )
-  (    2 /PB7 )
- )
- ( /4EC128EB c_0805  C10 22p {Lib=C}
-  (    1 /PB6 )
-  (    2 GND )
- )
- ( /4EC0FE5A SD_Micro  SD1 SD_CARD_MICRO {Lib=SD_CARD_MICRO}
-  (    1 ? )
-  (    2 /SD_CS )
-  (    3 /SD_DATA_IN )
-  (    4 +3.3V )
-  (    5 /SD_CLK )
-  (    6 GND )
-  (    7 /MISO )
-  (    8 ? )
-  (    9 ? )
-  (   G1 GND )
-  (   G2 GND )
-  (   G3 GND )
-  (   G4 GND )
-  (   H1 ? )
-  (   H2 ? )
- )
- ( /4EBCC1B9 PCB  PCB1 PCB {Lib=PCB}
- )
- ( /4E96D541 I/O_ADR  B17 I/O {Lib=I/O}
-  (    1 GND )
- )
- ( /4E96D338 I/O_ADR  B16 I/O {Lib=I/O}
-  (    1 GND )
- )
- ( /4E241EEB I/O  P1 I/O {Lib=I/O}
-  (    1 ? )
- )
- ( /4E241CD6 PIN_ARRAY-6X1  P5 CONN_6 {Lib=CONN_6}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
-  (    4 ? )
-  (    5 /i2gps_v1_rtc/SDA )
-  (    6 /i2gps_v1_rtc/SCL )
- )
- ( /4E241CCB PIN_ARRAY-6X1  P4 CONN_6 {Lib=CONN_6}
-  (    1 /RESET )
-  (    2 +3.3V )
-  (    3 /i2gps_v1_rtc/5V0 )
-  (    4 GND )
-  (    5 GND )
-  (    6 ? )
- )
- ( /4E1ED2A7 pin_strip_2  P6 9VBAT {Lib=CONN_2}
-  (    1 /+9V )
-  (    2 GND )
- )
- ( /4E1ED0F3 c_0805  C4 100n {Lib=C}
-  (    1 N-000001 )
-  (    2 GND )
- )
- ( /4E1ECFB8 c_0805  C5 1u {Lib=C}
-  (    1 +3.3V )
-  (    2 GND )
- )
- ( /4E1ECD8D SOT23-5  U3 5V0 {Lib=MIC5219-5.0}
-  (    1 /+9V )
-  (    2 GND )
-  (    3 /+9V )
-  (    4 N-000001 )
-  (    5 /i2gps_v1_rtc/5V0 )
- )
- ( /4E1EC986 c_0805  C8 100n {Lib=C}
-  (    1 /+9V )
-  (    2 GND )
- )
- ( /4E1EC963 c_0805  C3 2u2_Tant {Lib=C_POL}
-  (    1 /i2gps_v1_rtc/5V0 )
-  (    2 GND )
- )
- ( /4DD75888 Sck-04-F-SMT  P12 CD1 {Lib=CONN_4}
-  (    1 /i2gps_v1_rtc/BAT )
-  (    2 /i2gps_v1_rtc/32k )
-  (    3 /i2gps_v1_rtc/SQW )
-  (    4 /i2gps_v1_rtc/RST )
- )
- ( /4DD75881 Sck-04-F-SMT  P11 CD2 {Lib=CONN_4}
-  (    1 /i2gps_v1_rtc/SDA )
-  (    2 /i2gps_v1_rtc/SCL )
-  (    3 /i2gps_v1_rtc/5V0 )
-  (    4 GND )
- )
- ( /4DD75875 Sck-04-F-SMT  P13 CD1 {Lib=CONN_4}
-  (    1 /i2gps_v1_rtc/BAT )
-  (    2 /i2gps_v1_rtc/32k )
-  (    3 /i2gps_v1_rtc/SQW )
-  (    4 /i2gps_v1_rtc/RST )
- )
- ( /4DD7586B Sck-04-F-SMT  P10 CD2 {Lib=CONN_4}
-  (    1 /i2gps_v1_rtc/SDA )
-  (    2 /i2gps_v1_rtc/SCL )
-  (    3 /i2gps_v1_rtc/5V0 )
-  (    4 GND )
- )
- ( /4DCFFB11 r_0805  R8 1k5 {Lib=R}
-  (    1 /LED2 )
-  (    2 N-000012 )
- )
- ( /4DCFFAF9 r_0805  R5 1k5 {Lib=R}
-  (    1 /LED1 )
-  (    2 N-000029 )
- )
- ( /4DCFFADF d_0805  D2 LED {Lib=LED}
-  (    1 N-000012 )
-  (    2 GND )
- )
- ( /4DCFFACF d_0805  D1 LED {Lib=LED}
-  (    1 N-000029 )
-  (    2 GND )
- )
- ( /4DCD1D5C I/O  B14 I/O {Lib=I/O}
-  (    1 /Boot )
- )
- ( /4DCD1D59 I/O  B13 I/O {Lib=I/O}
-  (    1 /GPS_Tx )
- )
- ( /4DCD1D52 I/O  B12 I/O {Lib=I/O}
-  (    1 /i2gps_v1_rtc/SQW )
- )
- ( /4DCD1D50 I/O_ADR  B11 I/O {Lib=I/O}
-  (    1 /PB0 )
- )
- ( /4DCD1D4F I/O_ADR  B10 I/O {Lib=I/O}
-  (    1 /PB1 )
- )
- ( /4DCD1D4D I/O  B9 I/O {Lib=I/O}
-  (    1 /ADC6 )
- )
- ( /4DCD1D4C I/O  B8 I/O {Lib=I/O}
-  (    1 /GPS_Rx )
- )
- ( /4DCD1D49 I/O  B7 I/O {Lib=I/O}
-  (    1 /PC0 )
- )
- ( /4DCD1D46 I/O  B6 I/O {Lib=I/O}
-  (    1 /PC1 )
- )
- ( /4DCD1D43 I/O  B5 I/O {Lib=I/O}
-  (    1 /PC2 )
- )
- ( /4DCD1D41 I/O  B4 I/O {Lib=I/O}
-  (    1 /Ir_Dat )
- )
- ( /4DCD1D3A I/O  B1 I/O {Lib=I/O}
-  (    1 /LED1 )
- )
- ( /4DCD1997 ISP  P9 ISP {Lib=ISP}
-  (    1 /MISO )
-  (    2 /i2gps_v1_rtc/5V0 )
-  (    3 /SCK )
-  (    4 /MOSI )
-  (    5 /RESET )
-  (    6 GND )
- )
- ( /4DCCE748 vite_3mm  SC1 SCREW {Lib=SCREW}
- )
- ( /4DCB9774 c_0805  C7 100n {Lib=C}
-  (    1 N-000035 )
-  (    2 /RESET )
- )
- ( /4DCB971F PIN_ARRAY-6X1  P8 FTDI {Lib=CONN_6}
-  (    1 GND )
-  (    2 GND )
-  (    3 /i2gps_v1_rtc/5V0 )
-  (    4 /RXD )
-  (    5 /TXD )
-  (    6 N-000035 )
- )
- ( /4DCB9634 C_ELCO_SMD  C6 47u,10V {Lib=C_POL}
-  (    1 /+9V )
-  (    2 GND )
- )
- ( /4DCB7505 SO14E  U2 74HC125 {Lib=74LS125}
-  (    1 GND )
-  (    2 /SCK )
-  (    3 /SD_CLK )
-  (    4 GND )
-  (    5 /MOSI )
-  (    6 /SD_DATA_IN )
-  (    7 GND )
-  (    8 /SD_CS )
-  (    9 /SS )
-  (   10 GND )
-  (   11 ? )
-  (   12 +3.3V )
-  (   13 +3.3V )
-  (   14 +3.3V )
- )
- ( /4DCAC2D1 SOT23-3  U1 3V3 {Lib=MCP_1700}
-  (    1 GND )
-  (    2 +3.3V )
-  (    3 /i2gps_v1_rtc/5V0 )
- )
- ( /4DCAC172 r_0805  R2 10k {Lib=R}
-  (    1 /i2gps_v1_rtc/5V0 )
-  (    2 /i2gps_v1_rtc/SDA )
- )
- ( /4DCAC161 r_0805  R1 10k {Lib=R}
-  (    1 /i2gps_v1_rtc/5V0 )
-  (    2 /i2gps_v1_rtc/SCL )
- )
- ( /4DCA7D67 SW_SMD  SW1 SW_PUSH {Lib=SW_PUSH}
-  (    1 GND )
-  (    2 /RESET )
- )
- ( /4DCA7BFC r_0805  R7 10k {Lib=R}
-  (    1 /i2gps_v1_rtc/5V0 )
-  (    2 /RESET )
- )
- ( /4DCA7BAC c_0805  C1 100n {Lib=C}
-  (    1 /i2gps_v1_rtc/5V0 )
-  (    2 GND )
- )
- ( /4DCA5F5F r_0805  R3 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /SS )
- )
- ( /4DCA5F5D r_0805  R4 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /MOSI )
- )
- ( /4DCA5F59 r_0805  R6 10k {Lib=R}
-  (    1 +3.3V )
-  (    2 /SCK )
- )
- ( /4DCA5F1E c_0805  C2 1u {Lib=C}
-  (    1 /i2gps_v1_rtc/5V0 )
-  (    2 GND )
- )
- ( /4DCA5EC5 TQFP32  IC1 ATMEGA328 {Lib=ATMEGA8-AI}
-  (    1 /i2gps_v1_rtc/SQW )
-  (    2 /LED1 )
-  (    3 GND )
-  (    4 /i2gps_v1_rtc/5V0 )
-  (    5 GND )
-  (    6 /i2gps_v1_rtc/5V0 )
-  (    7 /PB6 )
-  (    8 /PB7 )
-  (    9 /Boot )
-  (   10 /GPS_Tx )
-  (   11 /LED2 )
-  (   12 /PB0 )
-  (   13 /PB1 )
-  (   14 /SS )
-  (   15 /MOSI )
-  (   16 /MISO )
-  (   17 /SCK )
-  (   18 /i2gps_v1_rtc/5V0 )
-  (   19 /ADC6 )
-  (   20 /i2gps_v1_rtc/5V0 )
-  (   21 GND )
-  (   22 /GPS_Rx )
-  (   23 /PC0 )
-  (   24 /PC1 )
-  (   25 /PC2 )
-  (   26 /Ir_Dat )
-  (   27 /i2gps_v1_rtc/SDA )
-  (   28 /i2gps_v1_rtc/SCL )
-  (   29 /RESET )
-  (   30 /RXD )
-  (   31 /TXD )
-  (   32 /1pps )
- )
- ( /4E1FEA4E/4ECB8D22 r_0805  R9 10k {Lib=R}
-  (    1 /i2gps_v1_rtc/5V0 )
-  (    2 /i2gps_v1_rtc/SQW )
- )
- ( /4E1FEA4E/4E1FEBD4 I/O  B15 I/O {Lib=I/O}
-  (    1 /i2gps_v1_rtc/32k )
- )
- ( /4E1FEA4E/4E1FEBCE I/O  B3 I/O {Lib=I/O}
-  (    1 /i2gps_v1_rtc/RST )
- )
- ( /4E1FEA4E/4E1FEBC6 I/O  B2 I/O {Lib=I/O}
-  (    1 /i2gps_v1_rtc/SQW )
- )
- ( /4E1FEA4E/4E1FEA7F DS3231  U4 DS3231N {Lib=DS3231N}
-  (    1 /i2gps_v1_rtc/32k )
-  (    2 /i2gps_v1_rtc/5V0 )
-  (    3 /i2gps_v1_rtc/SQW )
-  (    4 /i2gps_v1_rtc/RST )
-  (    5 GND )
-  (    6 GND )
-  (    7 GND )
-  (    8 GND )
-  (    9 GND )
-  (   10 GND )
-  (   11 GND )
-  (   12 GND )
-  (   13 GND )
-  (   14 /i2gps_v1_rtc/BAT )
-  (   15 /i2gps_v1_rtc/SDA )
-  (   16 /i2gps_v1_rtc/SCL )
- )
- ( /4E1FEA4E/4E1FEA7E c_0805  C9 100n {Lib=C}
-  (    1 /i2gps_v1_rtc/BAT )
-  (    2 GND )
- )
- ( /4E1FEA4E/4E1FEA78 CR1632  BT1 BATT_RTC {Lib=BATT_RTC}
-  (    + /i2gps_v1_rtc/BAT )
-  (    - GND )
- )
-)
-*
-{ Allowed footprints by component:
-$component D4
- D?
- S*
-$endlist
-$component D3
- D?
- S*
-$endlist
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component R8
- R?
- SM0603
- SM0805
-$endlist
-$component R5
- R?
- SM0603
- SM0805
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component R2
- R?
- SM0603
- SM0805
-$endlist
-$component R1
- R?
- SM0603
- SM0805
-$endlist
-$component R7
- R?
- SM0603
- SM0805
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component R3
- R?
- SM0603
- SM0805
-$endlist
-$component R4
- R?
- SM0603
- SM0805
-$endlist
-$component R6
- R?
- SM0603
- SM0805
-$endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component IC1
- TQFP32
-$endlist
-$component R9
- R?
- SM0603
- SM0805
-$endlist
-$component C9
- SM*
- C?
- C1-1
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "" ""
- C4 1
- U3 4
-Net 2 "/+9V" "+9V"
- U3 1
- C8 1
- U3 3
- P6 1
- C6 1
-Net 8 "/i2gps_v1_rtc/SDA" "SDA"
- P5 5
- P11 1
- U4 15
- R2 2
- P10 1
- IC1 27
-Net 9 "/i2gps_v1_rtc/SCL" "SCL"
- R1 2
- U4 16
- P11 2
- IC1 28
- P5 6
- P10 2
-Net 10 "/LED2" "LED2"
- R8 1
- IC1 11
-Net 11 "/LED1" "LED1"
- IC1 2
- B1 1
- R5 1
-Net 12 "" ""
- R8 2
- D2 1
-Net 13 "/RESET" "RESET"
- P4 1
- R7 2
- P9 5
- IC1 29
- SW1 2
- C7 2
-Net 14 "+3.3V" "+3.3V"
- U1 2
- R4 1
- R3 1
- R6 1
- U2 14
- U2 12
- U2 13
- D3 1
- P7 4
- SD1 4
- P4 2
- C5 1
-Net 15 "/i2gps_v1_rtc/BAT" "BAT"
- P13 1
- D4 1
- P12 1
- BT1 +
- U4 14
- C9 1
-Net 16 "/i2gps_v1_rtc/5V0" "5V0"
- R9 1
- P8 3
- U4 2
- B19 1
- U3 5
- C3 1
- P4 3
- R1 1
- R7 1
- R2 1
- U1 3
- C1 1
- P11 3
- P10 3
- IC1 18
- P9 2
- IC1 20
- IC1 6
- IC1 4
- P3 3
- C2 1
-Net 17 "/i2gps_v1_rtc/RST" "RST"
- P12 4
- P13 4
- B3 1
- U4 4
-Net 18 "/i2gps_v1_rtc/SQW" "SQW"
- R9 2
- B2 1
- P12 3
- P13 3
- B12 1
- U4 3
- IC1 1
-Net 19 "/i2gps_v1_rtc/32k" "32k"
- P12 2
- P13 2
- U4 1
- B15 1
-Net 20 "/Boot" "Boot"
- P3 6
- IC1 9
- B14 1
-Net 21 "/RXD" "RXD"
- IC1 30
- P3 5
- P8 4
-Net 22 "/TXD" "TXD"
- P3 4
- P8 5
- IC1 31
-Net 29 "" ""
- R5 2
- D1 1
-Net 30 "/SS" "SS"
- U2 9
- R3 2
- IC1 14
-Net 31 "/MOSI" "MOSI"
- IC1 15
- U2 5
- R4 2
- P9 4
-Net 32 "/MISO" "MISO"
- SD1 7
- IC1 16
- P9 1
-Net 33 "/PB6" "PB6"
- IC1 7
- X1 1
- C10 1
-Net 34 "/PB7" "PB7"
- C11 2
- X1 2
- IC1 8
-Net 35 "" ""
- P8 6
- C7 1
-Net 36 "/PC1" "PC1"
- IC1 24
- B6 1
-Net 37 "/GPS_Tx" "GPS_Tx"
- IC1 10
- B13 1
- P7 2
-Net 38 "/PB0" "PB0"
- B11 1
- IC1 12
-Net 39 "/PB1" "PB1"
- B10 1
- IC1 13
-Net 40 "/ADC6" "ADC6"
- IC1 19
- B9 1
-Net 41 "/GPS_Rx" "GPS_Rx"
- B8 1
- P7 1
- IC1 22
-Net 42 "/PC0" "PC0"
- IC1 23
- B7 1
-Net 43 "/PC2" "PC2"
- B5 1
- IC1 25
-Net 44 "/Ir_Dat" "Ir_Dat"
- IC1 26
- B4 1
-Net 46 "/1pps" "1pps"
- IC1 32
- P7 6
-Net 47 "/SD_CLK" "SD_CLK"
- U2 3
- SD1 5
-Net 48 "/SD_CS" "SD_CS"
- SD1 2
- U2 8
-Net 49 "/SD_DATA_IN" "SD_DATA_IN"
- SD1 3
- U2 6
-Net 50 "/GPS_BAT" "GPS_BAT"
- D4 2
- P7 5
- D3 2
-Net 51 "/SCK" "SCK"
- R6 2
- IC1 17
- P9 3
- U2 2
-Net 52 "GND" "GND"
- U4 5
- U4 7
- U4 8
- U4 9
- U4 10
- U4 11
- U4 6
- C5 2
- U4 12
- BT1 -
- C9 2
- U4 13
- IC1 3
- C2 2
- IC1 5
- IC1 21
- U1 1
- U2 4
- P9 6
- SW1 1
- C1 2
- SD1 6
- C10 2
- C11 1
- B18 1
- U2 10
- U2 7
- U2 1
- B16 1
- D1 2
- C6 2
- P8 2
- P8 1
- P4 4
- C3 2
- D2 2
- P10 4
- P11 4
- P4 5
- C8 2
- U3 2
- C4 2
- P6 2
- B17 1
- SD1 G4
- SD1 G3
- SD1 G2
- SD1 G1
- P3 1
- P3 2
- P7 3
-}
-#End
+(export (version D)
+  (design
+    (source /home/anool/projects-git/ArthurC/arthurc.sch)
+    (date "Sunday 02 March 2014 10:15:51 PM IST")
+    (tool "eeschema (2013-jul-14)-product"))
+  (components
+    (comp (ref D4)
+      (value RB886GT2R)
+      (footprint d_VMD2)
+      (libsource (lib arthurc) (part DIODESCH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4F9A5A10))
+    (comp (ref D3)
+      (value RB886GT2R)
+      (footprint d_VMD2)
+      (libsource (lib arthurc) (part DIODESCH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4F9A5A02))
+    (comp (ref B19)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC65609))
+    (comp (ref B18)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC65606))
+    (comp (ref C11)
+      (value 22p)
+      (footprint c_0805)
+      (fields
+        (field (name Digikey) 490-1734-1-ND))
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC1290E))
+    (comp (ref C10)
+      (value 22p)
+      (footprint c_0805)
+      (fields
+        (field (name Digikey) 490-1734-1-ND))
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC128EB))
+    (comp (ref SD1)
+      (value SD_CARD_MICRO)
+      (footprint SD_Micro)
+      (libsource (lib arthurc) (part SD_CARD_MICRO))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EC0FE5A))
+    (comp (ref PCB1)
+      (value PCB)
+      (footprint PCB)
+      (libsource (lib arthurc) (part PCB))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4EBCC1B9))
+    (comp (ref B17)
+      (value I/O)
+      (footprint I/O_ADR)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E96D541))
+    (comp (ref B16)
+      (value I/O)
+      (footprint I/O_ADR)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E96D338))
+    (comp (ref P1)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E241EEB))
+    (comp (ref P5)
+      (value CONN_6)
+      (footprint PIN_ARRAY-6X1)
+      (libsource (lib arthurc) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E241CD6))
+    (comp (ref P4)
+      (value CONN_6)
+      (footprint PIN_ARRAY-6X1)
+      (libsource (lib arthurc) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E241CCB))
+    (comp (ref P6)
+      (value 9VBAT)
+      (footprint pin_strip_2)
+      (libsource (lib arthurc) (part CONN_2))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E1ED2A7))
+    (comp (ref C4)
+      (value 100n)
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E1ED0F3))
+    (comp (ref C5)
+      (value 1u)
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E1ECFB8))
+    (comp (ref U3)
+      (value 5V0)
+      (footprint SOT23-5)
+      (fields
+        (field (name "Part No") MIC5219-5.0BM5))
+      (libsource (lib arthurc) (part MIC5219-5.0))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E1ECD8D))
+    (comp (ref C8)
+      (value 100n)
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E1EC986))
+    (comp (ref C3)
+      (value "2u2 Tant")
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C_POL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4E1EC963))
+    (comp (ref P12)
+      (value CD1)
+      (footprint Sck-04-F-SMT)
+      (libsource (lib arthurc) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DD75888))
+    (comp (ref P11)
+      (value CD2)
+      (footprint Sck-04-F-SMT)
+      (libsource (lib arthurc) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DD75881))
+    (comp (ref P13)
+      (value CD1)
+      (footprint Sck-04-F-SMT)
+      (libsource (lib arthurc) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DD75875))
+    (comp (ref P10)
+      (value CD2)
+      (footprint Sck-04-F-SMT)
+      (libsource (lib arthurc) (part CONN_4))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DD7586B))
+    (comp (ref R8)
+      (value 1k5)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCFFB11))
+    (comp (ref R5)
+      (value 1k5)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCFFAF9))
+    (comp (ref D2)
+      (value LED)
+      (footprint d_0805)
+      (libsource (lib arthurc-cache) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCFFADF))
+    (comp (ref D1)
+      (value LED)
+      (footprint d_0805)
+      (libsource (lib arthurc-cache) (part LED))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCFFACF))
+    (comp (ref B11)
+      (value I/O)
+      (footprint I/O_ADR)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCD1D50))
+    (comp (ref B10)
+      (value I/O)
+      (footprint I/O_ADR)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCD1D4F))
+    (comp (ref B8)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCD1D4C))
+    (comp (ref B6)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCD1D46))
+    (comp (ref B5)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCD1D43))
+    (comp (ref B4)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCD1D41))
+    (comp (ref P9)
+      (value ISP)
+      (footprint ISP)
+      (libsource (lib arthurc) (part ISP))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCD1997))
+    (comp (ref SC1)
+      (value SCREW)
+      (footprint vite_3mm)
+      (libsource (lib arthurc) (part SCREW))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCCE748))
+    (comp (ref C7)
+      (value 100n)
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCB9774))
+    (comp (ref P8)
+      (value FTDI)
+      (footprint PIN_ARRAY-6X1)
+      (libsource (lib arthurc) (part CONN_6))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCB971F))
+    (comp (ref C6)
+      (value 47u,10V)
+      (footprint C_ELCO_SMD)
+      (libsource (lib arthurc) (part C_POL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCB9634))
+    (comp (ref U2)
+      (value 74HC125)
+      (footprint SO14E)
+      (libsource (lib arthurc) (part 74LS125))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCB7505))
+    (comp (ref U1)
+      (value 3V3)
+      (footprint SOT23-3)
+      (fields
+        (field (name "Part No") MCP1700T-3302E/TT))
+      (libsource (lib arthurc) (part MCP_1700))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCAC2D1))
+    (comp (ref R2)
+      (value 10k)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCAC172))
+    (comp (ref R1)
+      (value 10k)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCAC161))
+    (comp (ref SW1)
+      (value SW_PUSH)
+      (footprint SW_SMD)
+      (fields)
+      (libsource (lib arthurc) (part SW_PUSH))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA7D67))
+    (comp (ref R7)
+      (value 10k)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA7BFC))
+    (comp (ref C1)
+      (value 100n)
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA7BAC))
+    (comp (ref R3)
+      (value 10k)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA5F5F))
+    (comp (ref R4)
+      (value 10k)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA5F5D))
+    (comp (ref R6)
+      (value 10k)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA5F59))
+    (comp (ref C2)
+      (value 1u)
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA5F1E))
+    (comp (ref IC1)
+      (value ATMEGA328)
+      (footprint TQFP32)
+      (libsource (lib arthurc) (part ATMEGA8-AI))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 4DCA5EC5))
+    (comp (ref P7)
+      (value GPS)
+      (libsource (lib arthurc) (part CONN_9))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5311E38A))
+    (comp (ref X1)
+      (value 16MHz)
+      (libsource (lib arthurc) (part CRYSTAL))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5313C3B2))
+    (comp (ref R9)
+      (value 10k)
+      (footprint r_0805)
+      (libsource (lib arthurc) (part R))
+      (sheetpath (names /arthurc_rtc/) (tstamps /4E1FEA4E/))
+      (tstamp 4ECB8D22))
+    (comp (ref B15)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /arthurc_rtc/) (tstamps /4E1FEA4E/))
+      (tstamp 4E1FEBD4))
+    (comp (ref B3)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /arthurc_rtc/) (tstamps /4E1FEA4E/))
+      (tstamp 4E1FEBCE))
+    (comp (ref B2)
+      (value I/O)
+      (footprint I/O)
+      (libsource (lib arthurc) (part I/O))
+      (sheetpath (names /arthurc_rtc/) (tstamps /4E1FEA4E/))
+      (tstamp 4E1FEBC6))
+    (comp (ref U4)
+      (value DS3231N)
+      (footprint DS3231)
+      (libsource (lib arthurc) (part DS3231N))
+      (sheetpath (names /arthurc_rtc/) (tstamps /4E1FEA4E/))
+      (tstamp 4E1FEA7F))
+    (comp (ref C9)
+      (value 100n)
+      (footprint c_0805)
+      (libsource (lib arthurc) (part C))
+      (sheetpath (names /arthurc_rtc/) (tstamps /4E1FEA4E/))
+      (tstamp 4E1FEA7E))
+    (comp (ref BT1)
+      (value BATT_RTC)
+      (footprint CR1632)
+      (fields
+        (field (name Digikey) "BU2032SM-HD-GCT-ND "))
+      (libsource (lib arthurc) (part BATT_RTC))
+      (sheetpath (names /arthurc_rtc/) (tstamps /4E1FEA4E/))
+      (tstamp 4E1FEA78)))
+  (libparts
+    (libpart (lib arthurc) (part 74LS125)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) 74LS125))
+      (pins
+        (pin (num 1) (name E) (type input))
+        (pin (num 2) (name D) (type input))
+        (pin (num 3) (name O) (type 3state))
+        (pin (num 4) (name E) (type input))
+        (pin (num 5) (name D) (type input))
+        (pin (num 6) (name O) (type 3state))
+        (pin (num 7) (name GND) (type power_in))
+        (pin (num 8) (name O) (type 3state))
+        (pin (num 9) (name D) (type input))
+        (pin (num 10) (name E) (type input))
+        (pin (num 11) (name O) (type 3state))
+        (pin (num 12) (name D) (type input))
+        (pin (num 13) (name E) (type input))
+        (pin (num 14) (name VCC) (type power_in))))
+    (libpart (lib arthurc) (part ATMEGA8-AI)
+      (footprints
+        (fp TQFP32))
+      (fields
+        (field (name Reference) IC)
+        (field (name Value) ATMEGA8-AI)
+        (field (name Footprint) TQFP32))
+      (pins
+        (pin (num 1) (name "PD3(INT1)") (type BiDi))
+        (pin (num 2) (name "PD4(XCK/T0)") (type BiDi))
+        (pin (num 3) (name GND) (type passive))
+        (pin (num 4) (name VCC) (type power_in))
+        (pin (num 5) (name GND) (type passive))
+        (pin (num 6) (name VCC) (type power_in))
+        (pin (num 7) (name "PB6(XTAL1/TOSC1)") (type BiDi))
+        (pin (num 8) (name "PB7(XTAL2/TOSC2)") (type BiDi))
+        (pin (num 9) (name "PD5(T1)") (type BiDi))
+        (pin (num 10) (name "PD6(AIN0)") (type BiDi))
+        (pin (num 11) (name "PD7(AIN1)") (type BiDi))
+        (pin (num 12) (name "PB0(ICP)") (type BiDi))
+        (pin (num 13) (name "PB1(OC1A)") (type BiDi))
+        (pin (num 14) (name "PB2(SS/OC1B)") (type BiDi))
+        (pin (num 15) (name "PB3(MOSI/OC2)") (type BiDi))
+        (pin (num 16) (name "PB4(MISO)") (type BiDi))
+        (pin (num 17) (name "PB5(SCK)") (type BiDi))
+        (pin (num 18) (name AVCC) (type passive))
+        (pin (num 19) (name ADC6) (type BiDi))
+        (pin (num 20) (name AREF) (type passive))
+        (pin (num 21) (name AGND) (type passive))
+        (pin (num 22) (name ADC7) (type BiDi))
+        (pin (num 23) (name "PC0(ADC0)") (type BiDi))
+        (pin (num 24) (name "PC1(ADC1)") (type BiDi))
+        (pin (num 25) (name "PC2(ADC2)") (type BiDi))
+        (pin (num 26) (name "PC3(ADC3)") (type BiDi))
+        (pin (num 27) (name "PC4(ADC4/SDA)") (type BiDi))
+        (pin (num 28) (name "PC5(ADC5/SCL)") (type BiDi))
+        (pin (num 29) (name "PC6(/RESET)") (type BiDi))
+        (pin (num 30) (name "PD0(RXD)") (type BiDi))
+        (pin (num 31) (name "PD1(TXD)") (type BiDi))
+        (pin (num 32) (name "PD2(INT0)") (type BiDi))))
+    (libpart (lib arthurc) (part Batt_RTC)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) Batt_RTC)
+        (field (name Digikey) "BU2032SM-HD-GCT-ND "))
+      (pins
+        (pin (num +) (name +) (type passive))
+        (pin (num -) (name -) (type passive))))
+    (libpart (lib arthurc) (part C)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Digikey) 490-1734-1-ND))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib arthurc) (part C_POL)
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C_POL))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib arthurc) (part CONN_2)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib arthurc) (part CONN_4)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))))
+    (libpart (lib arthurc) (part CONN_6)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_6))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib arthurc) (part CONN_9)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_9))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))
+        (pin (num 7) (name 7) (type passive))
+        (pin (num 8) (name 8) (type passive))
+        (pin (num 9) (name 9) (type passive))))
+    (libpart (lib arthurc) (part CRYSTAL)
+      (fields
+        (field (name Reference) X)
+        (field (name Value) CRYSTAL))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib arthurc) (part DIODESCH)
+      (footprints
+        (fp D?)
+        (fp S*))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) DIODESCH))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib arthurc) (part DS3231N)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) DS3231N))
+      (pins
+        (pin (num 1) (name 32KHz) (type output))
+        (pin (num 2) (name Vcc) (type power_in))
+        (pin (num 3) (name "!(INT)/SQR") (type output))
+        (pin (num 4) (name "!(Reset)") (type BiDi))
+        (pin (num 5) (name NC) (type passive))
+        (pin (num 6) (name NC) (type passive))
+        (pin (num 7) (name NC) (type passive))
+        (pin (num 8) (name NC) (type passive))
+        (pin (num 9) (name NC) (type passive))
+        (pin (num 10) (name NC) (type passive))
+        (pin (num 11) (name NC) (type passive))
+        (pin (num 12) (name NC) (type passive))
+        (pin (num 13) (name GND) (type power_in))
+        (pin (num 14) (name Vbat) (type power_in))
+        (pin (num 15) (name SDA) (type BiDi))
+        (pin (num 16) (name SCL) (type input))))
+    (libpart (lib arthurc) (part I/O)
+      (fields
+        (field (name Reference) B)
+        (field (name Value) I/O))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
+    (libpart (lib arthurc) (part ISP)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) ISP))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))
+        (pin (num 6) (name 6) (type passive))))
+    (libpart (lib arthurc) (part MCP_1700)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MCP_1700))
+      (pins
+        (pin (num 1) (name GND) (type passive))
+        (pin (num 2) (name VOUT) (type output))
+        (pin (num 3) (name VIN) (type input))))
+    (libpart (lib arthurc) (part MIC5219-5.0)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) MIC5219-5.0))
+      (pins
+        (pin (num 1) (name IN) (type input))
+        (pin (num 2) (name GND) (type input))
+        (pin (num 3) (name EN) (type input))
+        (pin (num 4) (name BYP) (type input))
+        (pin (num 5) (name OUT) (type input))))
+    (libpart (lib arthurc) (part PCB)
+      (fields
+        (field (name Reference) PCB)
+        (field (name Value) PCB)))
+    (libpart (lib arthurc) (part R)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib arthurc) (part SCREW)
+      (fields
+        (field (name Reference) SC)
+        (field (name Value) SCREW)))
+    (libpart (lib arthurc) (part SD_CARD_Micro)
+      (fields
+        (field (name Reference) SD)
+        (field (name Value) SD_CARD_Micro))
+      (pins
+        (pin (num 1) (name DAT2) (type passive))
+        (pin (num 2) (name CS/DAT3) (type passive))
+        (pin (num 3) (name DI/CMD) (type passive))
+        (pin (num 4) (name VCC) (type passive))
+        (pin (num 5) (name CLK) (type passive))
+        (pin (num 6) (name GND) (type passive))
+        (pin (num 7) (name DO/DAT0) (type passive))
+        (pin (num 8) (name DAT1) (type passive))
+        (pin (num 9) (name CDN) (type input))
+        (pin (num G1) (name ~) (type passive))
+        (pin (num G2) (name ~) (type passive))
+        (pin (num G3) (name ~) (type passive))
+        (pin (num G4) (name ~) (type passive))
+        (pin (num H1) (name ~) (type passive))
+        (pin (num H2) (name ~) (type passive))))
+    (libpart (lib arthurc) (part SW_PUSH)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) SW_PUSH))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib arthurc-cache) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive)))))
+  (libraries
+    (library (logical arthurc)
+      (uri arthurc-libs/arthurc.lib))
+    (library (logical arthurc-cache)
+      (uri /home/anool/projects-git/ArthurC/arthurc-cache.lib)))
+  (nets
+    (net (code 1) (name /arthurc_rtc/SCL)
+      (node (ref IC1) (pin 28))
+      (node (ref R1) (pin 2))
+      (node (ref U4) (pin 16))
+      (node (ref P10) (pin 2))
+      (node (ref P5) (pin 6))
+      (node (ref P11) (pin 2)))
+    (net (code 2) (name /arthurc_rtc/SDA)
+      (node (ref R2) (pin 2))
+      (node (ref P10) (pin 1))
+      (node (ref IC1) (pin 27))
+      (node (ref P5) (pin 5))
+      (node (ref P11) (pin 1))
+      (node (ref U4) (pin 15)))
+    (net (code 3) (name /MOSI)
+      (node (ref R4) (pin 2))
+      (node (ref U2) (pin 5))
+      (node (ref IC1) (pin 15))
+      (node (ref P9) (pin 4)))
+    (net (code 4) (name "Net-(C7-Pad1)")
+      (node (ref C7) (pin 1))
+      (node (ref P8) (pin 6)))
+    (net (code 5) (name /RXD)
+      (node (ref IC1) (pin 30))
+      (node (ref P8) (pin 4)))
+    (net (code 6) (name /TXD)
+      (node (ref IC1) (pin 31))
+      (node (ref P8) (pin 5)))
+    (net (code 7) (name /LED2)
+      (node (ref R8) (pin 1))
+      (node (ref IC1) (pin 11)))
+    (net (code 8) (name /LED1)
+      (node (ref R5) (pin 1))
+      (node (ref IC1) (pin 2)))
+    (net (code 9) (name "Net-(D2-Pad1)")
+      (node (ref D2) (pin 1))
+      (node (ref R8) (pin 2)))
+    (net (code 10) (name "Net-(D1-Pad1)")
+      (node (ref D1) (pin 1))
+      (node (ref R5) (pin 2)))
+    (net (code 11) (name /Ir_Dat)
+      (node (ref B4) (pin 1))
+      (node (ref IC1) (pin 26)))
+    (net (code 12) (name /MISO)
+      (node (ref IC1) (pin 16))
+      (node (ref SD1) (pin 7))
+      (node (ref P9) (pin 1)))
+    (net (code 13) (name /SCK)
+      (node (ref P9) (pin 3))
+      (node (ref IC1) (pin 17))
+      (node (ref U2) (pin 2))
+      (node (ref R6) (pin 2)))
+    (net (code 14) (name "Net-(SD1-PadH1)")
+      (node (ref SD1) (pin H1)))
+    (net (code 15) (name "Net-(SD1-Pad8)")
+      (node (ref SD1) (pin 8)))
+    (net (code 16) (name "Net-(SD1-Pad9)")
+      (node (ref SD1) (pin 9)))
+    (net (code 17) (name "Net-(SD1-Pad1)")
+      (node (ref SD1) (pin 1)))
+    (net (code 18) (name "Net-(SD1-PadH2)")
+      (node (ref SD1) (pin H2)))
+    (net (code 19) (name /arthurc_rtc/BAT)
+      (node (ref P12) (pin 1))
+      (node (ref D4) (pin 1))
+      (node (ref U4) (pin 14))
+      (node (ref C9) (pin 1))
+      (node (ref BT1) (pin +))
+      (node (ref P13) (pin 1)))
+    (net (code 20) (name /arthurc_rtc/32k)
+      (node (ref U4) (pin 1))
+      (node (ref B15) (pin 1))
+      (node (ref P13) (pin 2))
+      (node (ref P12) (pin 2)))
+    (net (code 21) (name /arthurc_rtc/SQW)
+      (node (ref P12) (pin 3))
+      (node (ref U4) (pin 3))
+      (node (ref B2) (pin 1))
+      (node (ref P13) (pin 3))
+      (node (ref R9) (pin 2))
+      (node (ref IC1) (pin 1)))
+    (net (code 22) (name /arthurc_rtc/RST)
+      (node (ref B3) (pin 1))
+      (node (ref P13) (pin 4))
+      (node (ref P12) (pin 4))
+      (node (ref U4) (pin 4)))
+    (net (code 23) (name "Net-(P4-Pad6)")
+      (node (ref P4) (pin 6)))
+    (net (code 24) (name "Net-(C4-Pad1)")
+      (node (ref U3) (pin 4))
+      (node (ref C4) (pin 1)))
+    (net (code 25) (name "Net-(P5-Pad1)")
+      (node (ref P5) (pin 1)))
+    (net (code 26) (name "Net-(P1-Pad1)")
+      (node (ref P1) (pin 1)))
+    (net (code 27) (name "Net-(P5-Pad4)")
+      (node (ref P5) (pin 4)))
+    (net (code 28) (name "Net-(P5-Pad3)")
+      (node (ref P5) (pin 3)))
+    (net (code 29) (name "Net-(P5-Pad2)")
+      (node (ref P5) (pin 2)))
+    (net (code 30) (name /RESET)
+      (node (ref C7) (pin 2))
+      (node (ref SW1) (pin 2))
+      (node (ref R7) (pin 2))
+      (node (ref P4) (pin 1))
+      (node (ref P9) (pin 5))
+      (node (ref IC1) (pin 29)))
+    (net (code 31) (name /arthurc_rtc/5V0)
+      (node (ref R1) (pin 1))
+      (node (ref B19) (pin 1))
+      (node (ref R2) (pin 1))
+      (node (ref U1) (pin 3))
+      (node (ref P7) (pin 8))
+      (node (ref U4) (pin 2))
+      (node (ref R9) (pin 1))
+      (node (ref C3) (pin 1))
+      (node (ref U3) (pin 5))
+      (node (ref P10) (pin 3))
+      (node (ref IC1) (pin 20))
+      (node (ref IC1) (pin 6))
+      (node (ref IC1) (pin 4))
+      (node (ref C2) (pin 1))
+      (node (ref IC1) (pin 18))
+      (node (ref P4) (pin 3))
+      (node (ref P11) (pin 3))
+      (node (ref C1) (pin 1))
+      (node (ref R7) (pin 1))
+      (node (ref P8) (pin 3))
+      (node (ref P9) (pin 2)))
+    (net (code 32) (name "Net-(B8-Pad1)")
+      (node (ref IC1) (pin 22))
+      (node (ref B8) (pin 1)))
+    (net (code 33) (name /PB6)
+      (node (ref C10) (pin 1))
+      (node (ref IC1) (pin 7))
+      (node (ref X1) (pin 1)))
+    (net (code 34) (name /PB7)
+      (node (ref IC1) (pin 8))
+      (node (ref C11) (pin 2))
+      (node (ref X1) (pin 2)))
+    (net (code 35) (name /EN)
+      (node (ref IC1) (pin 23))
+      (node (ref P7) (pin 3)))
+    (net (code 36) (name /1pps)
+      (node (ref P7) (pin 9))
+      (node (ref IC1) (pin 32)))
+    (net (code 37) (name +3.3V)
+      (node (ref P7) (pin 1))
+      (node (ref U1) (pin 2))
+      (node (ref U2) (pin 13))
+      (node (ref C5) (pin 1))
+      (node (ref U2) (pin 14))
+      (node (ref U2) (pin 12))
+      (node (ref R3) (pin 1))
+      (node (ref R6) (pin 1))
+      (node (ref D3) (pin 1))
+      (node (ref R4) (pin 1))
+      (node (ref P4) (pin 2))
+      (node (ref SD1) (pin 4)))
+    (net (code 38) (name /FIX)
+      (node (ref IC1) (pin 19))
+      (node (ref P7) (pin 4)))
+    (net (code 39) (name /GPS_Tx)
+      (node (ref IC1) (pin 10))
+      (node (ref P7) (pin 5)))
+    (net (code 40) (name /GPS_Rx)
+      (node (ref IC1) (pin 9))
+      (node (ref P7) (pin 6)))
+    (net (code 41) (name "Net-(U2-Pad11)")
+      (node (ref U2) (pin 11)))
+    (net (code 42) (name /PC1)
+      (node (ref IC1) (pin 24))
+      (node (ref B6) (pin 1)))
+    (net (code 43) (name /PB0)
+      (node (ref IC1) (pin 12))
+      (node (ref B11) (pin 1)))
+    (net (code 44) (name /PB1)
+      (node (ref B10) (pin 1))
+      (node (ref IC1) (pin 13)))
+    (net (code 45) (name /PC2)
+      (node (ref IC1) (pin 25))
+      (node (ref B5) (pin 1)))
+    (net (code 46) (name /SS)
+      (node (ref IC1) (pin 14))
+      (node (ref U2) (pin 9))
+      (node (ref R3) (pin 2)))
+    (net (code 47) (name /SD_CLK)
+      (node (ref U2) (pin 3))
+      (node (ref SD1) (pin 5)))
+    (net (code 48) (name /SD_CS)
+      (node (ref SD1) (pin 2))
+      (node (ref U2) (pin 8)))
+    (net (code 49) (name /SD_DATA_IN)
+      (node (ref SD1) (pin 3))
+      (node (ref U2) (pin 6)))
+    (net (code 50) (name /GPS_BAT)
+      (node (ref D3) (pin 2))
+      (node (ref P7) (pin 2))
+      (node (ref D4) (pin 2)))
+    (net (code 51) (name /+9V)
+      (node (ref C6) (pin 1))
+      (node (ref U3) (pin 3))
+      (node (ref C8) (pin 1))
+      (node (ref P6) (pin 1))
+      (node (ref U3) (pin 1)))
+    (net (code 52) (name GND)
+      (node (ref U4) (pin 12))
+      (node (ref C9) (pin 2))
+      (node (ref B16) (pin 1))
+      (node (ref C8) (pin 2))
+      (node (ref C10) (pin 2))
+      (node (ref U4) (pin 13))
+      (node (ref U4) (pin 11))
+      (node (ref U4) (pin 10))
+      (node (ref U4) (pin 9))
+      (node (ref U4) (pin 8))
+      (node (ref U4) (pin 7))
+      (node (ref U4) (pin 6))
+      (node (ref U4) (pin 5))
+      (node (ref P4) (pin 4))
+      (node (ref P7) (pin 7))
+      (node (ref U1) (pin 1))
+      (node (ref B18) (pin 1))
+      (node (ref C11) (pin 1))
+      (node (ref X1) (pin 3))
+      (node (ref BT1) (pin -))
+      (node (ref C3) (pin 2))
+      (node (ref P11) (pin 4))
+      (node (ref IC1) (pin 3))
+      (node (ref IC1) (pin 21))
+      (node (ref P10) (pin 4))
+      (node (ref P4) (pin 5))
+      (node (ref IC1) (pin 5))
+      (node (ref C2) (pin 2))
+      (node (ref D1) (pin 2))
+      (node (ref B17) (pin 1))
+      (node (ref D2) (pin 2))
+      (node (ref SD1) (pin G2))
+      (node (ref SW1) (pin 1))
+      (node (ref U2) (pin 10))
+      (node (ref C1) (pin 2))
+      (node (ref SD1) (pin 6))
+      (node (ref SD1) (pin G1))
+      (node (ref U3) (pin 2))
+      (node (ref U2) (pin 7))
+      (node (ref C6) (pin 2))
+      (node (ref SD1) (pin G3))
+      (node (ref SD1) (pin G4))
+      (node (ref P6) (pin 2))
+      (node (ref U2) (pin 4))
+      (node (ref U2) (pin 1))
+      (node (ref P8) (pin 2))
+      (node (ref P8) (pin 1))
+      (node (ref C5) (pin 2))
+      (node (ref P9) (pin 6))
+      (node (ref C4) (pin 2)))))

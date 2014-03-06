@@ -332,7 +332,7 @@ Ne 0 ""
 Po 0 -1.27
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/cp_5x11mm.wrl"
+Na "/arthurc-libs/3D Modules/cp_5x11mm.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -389,7 +389,7 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/batt-02.wrl"
+Na "/arthurc-libs/3D Modules/batt-02.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -460,7 +460,7 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/batt-02.wrl"
+Na "/arthurc-libs/3D Modules/batt-02.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -500,7 +500,7 @@ Ne 0 ""
 Po 14.605 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/cr2032.wrl"
+Na "/arthurc-libs/3D Modules/cr2032.wrl"
 Sc 10 10 10
 Of 0 0 0.15
 Ro -90 0 90
@@ -543,7 +543,7 @@ Ne 0 ""
 Po -0.0635 -2.286
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/c_elec_5x5_3.wrl"
+Na "/arthurc-libs/3D Modules/c_elec_5x5_3.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 90
@@ -688,7 +688,7 @@ Ne 5 "/clock2-Aux/SCL"
 Po -4.445 -4.65074
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/cms_so16.wrl"
+Na "/arthurc-libs/3D Modules/cms_so16.wrl"
 Sc 0.5 0.6 0.5
 Of 0 0 0
 Ro 0 0 0
@@ -823,7 +823,7 @@ Ne 6 "GND"
 Po 5.08 -2.54
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pin_strip_3x2.wrl"
+Na "/arthurc-libs/3D Modules/pin_strip_3x2.wrl"
 Sc 1 1 1
 Of 0.1 0.05 0
 Ro 0 0 0
@@ -68121,7 +68121,7 @@ DS -6.35 -6.35 -5.715 -6.35 0.1524 21
 DS -5.715 6.35 -6.35 6.35 0.1524 21
 DS -6.35 6.35 -6.35 5.715 0.1524 21
 $SHAPE3D
-Na "arthurc-libs/3D Modules/i2gps_PCB_Material_3D.wrl"
+Na "/arthurc-libs/3D Modules/i2gps_PCB_Material_3D.wrl"
 Sc 6.4 3 1
 Of 0 0 0
 Ro 0 0 0
@@ -68240,7 +68240,7 @@ Ne 2 "/1pps"
 Po 6.35 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pins_array_6x1.wrl"
+Na "/arthurc-libs/3D Modules/pins_array_6x1.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -68398,7 +68398,7 @@ Ne 2 "/1pps"
 Po 2.54 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pins_array_6x1.wrl"
+Na "/arthurc-libs/3D Modules/pins_array_6x1.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -68472,7 +68472,7 @@ Ne 0 ""
 Po 3.81 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pin_strip_4.wrl"
+Na "/arthurc-libs/3D Modules/pin_strip_4.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -68505,7 +68505,7 @@ Ne 0 ""
 Po 1.27 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/verti_resistor.wrl"
+Na "/arthurc-libs/3D Modules/verti_resistor.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -68904,7 +68904,7 @@ Ne 0 ""
 Po -3.81 -2.667
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/cms_so14.wrl"
+Na "/arthurc-libs/3D Modules/cms_so14.wrl"
 Sc 0.5 0.35 0.5
 Of 0 0 0
 Ro 0 0 0
@@ -68952,7 +68952,7 @@ Ne 0 ""
 Po 0.9525 1.2065
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/SOT23_3.wrl"
+Na "/arthurc-libs/3D Modules/SOT23_3.wrl"
 Sc 0.5 0.5 0.5
 Of 0 0 0
 Ro 0 0 180
@@ -69012,7 +69012,7 @@ Ne 0 ""
 Po -0.9525 -1.3335
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/SOT23_3.wrl"
+Na "/arthurc-libs/3D Modules/SOT23_3.wrl"
 Sc 0.5 0.5 0.5
 Of 0 0 0
 Ro 0 0 180
@@ -69072,7 +69072,7 @@ Ne 0 ""
 Po -2.6035 -0.889
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pcb_push.wrl"
+Na "/arthurc-libs/3D Modules/pcb_push.wrl"
 Sc 1 0.4 0.5
 Of 0 0 0
 Ro 0 0 0
@@ -69144,7 +69144,7 @@ Ne 0 ""
 Po -3.81 -1.651
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/socket_1x4.wrl"
+Na "/arthurc-libs/3D Modules/socket_1x4.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -69198,7 +69198,7 @@ Ne 0 ""
 Po -1.27 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pcb_push_spst.wrl"
+Na "/arthurc-libs/3D Modules/pcb_push_spst.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 90
@@ -69251,7 +69251,7 @@ Ne 0 ""
 Po -2.54 2.032
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pcb_push.wrl"
+Na "/arthurc-libs/3D Modules/pcb_push.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 90
@@ -69540,7 +69540,7 @@ Po 2.79908 4.15036
 .LocalClearance 0.127
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/tqfp32.wrl"
+Na "/arthurc-libs/3D Modules/tqfp32.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -69829,7 +69829,7 @@ Po 2.79908 4.15036
 .LocalClearance 0.09906
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/tqfp32.wrl"
+Na "/arthurc-libs/3D Modules/tqfp32.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -69899,7 +69899,7 @@ Ne 0 ""
 Po 1.27 -1.27
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pins_array_2x2.wrl"
+Na "/arthurc-libs/3D Modules/pins_array_2x2.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -69950,7 +69950,7 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/capa_2pas_5x5mm.wrl"
+Na "/arthurc-libs/3D Modules/capa_2pas_5x5mm.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -69993,7 +69993,7 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/c_0805.wrl"
+Na "/arthurc-libs/3D Modules/c_0805.wrl"
 Sc 4 2 1
 Of 0 0 0
 Ro 0 0 0
@@ -70057,7 +70057,7 @@ Ne 0 ""
 Po 1.143 0.9525
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/r_0805.wrl"
+Na "/arthurc-libs/3D Modules/r_0805.wrl"
 Sc 1.5 1.8 1
 Of 0 0 0.005
 Ro 0 0 0
@@ -70121,7 +70121,7 @@ Ne 2 "/PB7"
 Po 1.143 0.9525
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/r_0805.wrl"
+Na "/arthurc-libs/3D Modules/r_0805.wrl"
 Sc 1.5 1.8 1
 Of 0 0 0.005
 Ro 0 0 0
@@ -70159,7 +70159,7 @@ Ne 0 ""
 Po -1.016 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/c_0805.wrl"
+Na "/arthurc-libs/3D Modules/c_0805.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -70207,7 +70207,7 @@ Ne 0 ""
 Po -1.016 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/r_0805.wrl"
+Na "/arthurc-libs/3D Modules/r_0805.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -70245,7 +70245,7 @@ Ne 0 ""
 Po -0.635 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/r_0805.wrl"
+Na "/arthurc-libs/3D Modules/r_0805.wrl"
 Sc 0.75 0.75 0.75
 Of 0 0 0
 Ro 0 0 0
@@ -70312,7 +70312,7 @@ Ne 2 "GND"
 Po 1.27 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pin_strip_2.wrl"
+Na "/arthurc-libs/3D Modules/pin_strip_2.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -70380,7 +70380,7 @@ Ne 0 ""
 Po 6.35 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/pin_strip_6-90.wrl"
+Na "/arthurc-libs/3D Modules/pin_strip_6-90.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -70418,7 +70418,7 @@ Ne 0 ""
 Po -0.9525 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/r_0805.wrl"
+Na "/arthurc-libs/3D Modules/r_0805.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
@@ -70441,7 +70441,7 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $SHAPE3D
-Na "arthurc-libs/3D Modules/vite_2mm5.wrl"
+Na "/arthurc-libs/3D Modules/vite_2mm5.wrl"
 Sc 1 1 1
 Of 0 0 0
 Ro 0 0 0
