@@ -1,4 +1,4 @@
-update=Monday 03 March 2014 07:26:24 PM IST
+update=Friday 07 March 2014 04:17:39 PM IST
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,7 +43,7 @@ RptD_Y=100
 RptLab=1
 LabSize=50
 [eeschema/libraries]
-LibName1=arthurc-libs/arthurc
-LibName2=arthurc-libs/power
+LibName1=libs/arthurc
+LibName2=libs/power
 [general]
 version=1

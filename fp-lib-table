@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "ArthurC Lib")(type Legacy)(uri ${KIPRJMOD}/arthurc-libs/arthurc.mod)(options "")(descr ""))
-)
