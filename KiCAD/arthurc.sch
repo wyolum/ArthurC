@@ -1248,4 +1248,6 @@ Wire Wire Line
 Connection ~ 2350 1725
 Connection ~ 5000 800 
 NoConn ~ 4625 6600
+Text Label 6075 6825 0    40   ~ 0
+3Vgps
 $EndSCHEMATC
