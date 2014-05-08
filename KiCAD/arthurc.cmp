@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-13 BZR 4800)-product   date = Wednesday 07 May 2014 10:38:45 PM IST
+Cmp-Mod V01 Created by Cvpcb (2014-04-25 BZR 4828)-product   date = Thursday 08 May 2014 04:34:05 PM IST
 
 BeginCmp
 TimeStamp = /535FE0F7;
@@ -117,6 +117,13 @@ TimeStamp = /4DCA5F1E;
 Reference = C2;
 ValeurCmp = 1u;
 IdModule  = ArthurC Lib:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /536B66B9;
+Reference = C3;
+ValeurCmp = 47uF_25V;
+IdModule  = ArthurC Lib:C_ELCO_SMD;
 EndCmp
 
 BeginCmp
