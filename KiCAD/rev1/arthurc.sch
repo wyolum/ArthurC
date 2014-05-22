@@ -934,9 +934,9 @@ PB1
 Text Label 3625 2250 0    40   ~ 0
 EN
 Text Label 3450 2350 0    40   ~ 0
-PC1
+A1
 Text Label 3450 2450 0    40   ~ 0
-PC2
+A2
 Text Label 3450 2550 0    40   ~ 0
 Ir_Dat
 Text Label 3625 3150 0    40   ~ 0
@@ -1146,7 +1146,7 @@ U 1 1 5313C3B2
 P 900 3050
 F 0 "X1" V 975 3300 60  0000 C CNN
 F 1 "8MHz" V 875 3375 60  0000 C CNN
-F 2 "ArthurC Lib:Xtal_SMD3" H 900 3050 60  0001 C CNN
+F 2 "ArthurC Lib:Xtal_SMD4" H 900 3050 60  0001 C CNN
 F 3 "" H 900 3050 60  0000 C CNN
 	1    900  3050
 	0    1    1    0   
@@ -1277,4 +1277,8 @@ Connection ~ 10925 1850
 Wire Wire Line
 	10925 2400 10925 2350
 Connection ~ 10600 2400
+Text Label 3450 2950 0    50   ~ 0
+A7
+Text Label 1450 1700 0    50   ~ 0
+AREF
 $EndSCHEMATC

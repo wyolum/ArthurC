@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-04-25 BZR 4828)-product   date = Thursday 08 May 2014 04:34:05 PM IST
+Cmp-Mod V01 Created by Cvpcb (2014-05-21 BZR 4875)-product   date = Thursday 22 May 2014 03:27:52 PM IST
 
 BeginCmp
 TimeStamp = /535FE0F7;
@@ -375,7 +375,7 @@ BeginCmp
 TimeStamp = /5313C3B2;
 Reference = X1;
 ValeurCmp = 8MHz;
-IdModule  = ArthurC Lib:Xtal_SMD3;
+IdModule  = ArthurC Lib:Xtal_SMD4;
 EndCmp
 
 EndListe
