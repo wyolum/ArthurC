@@ -1,6 +1,8 @@
 EESchema Schematic File Version 2
 LIBS:arthurc
 LIBS:power
+LIBS:atmel
+LIBS:conn
 LIBS:arthurc-cache
 EELAYER 24 0
 EELAYER END
@@ -43,15 +45,10 @@ Wire Wire Line
 Wire Wire Line
 	4425 2325 4200 2325
 Wire Wire Line
-	550  3050 750  3050
-Connection ~ 900  3275
+	-3675 2800 -3275 2800
+Connection ~ -3125 3050
 Wire Wire Line
-	900  3250 900  3550
-Wire Wire Line
-	900  3550 700  3550
-Wire Wire Line
-	700  3550 700  3525
-Connection ~ 700  3050
+	-3125 3000 -3125 3050
 Connection ~ 5900 4900
 Wire Wire Line
 	5900 4750 5900 4900
@@ -69,13 +66,9 @@ Connection ~ 4500 4150
 Wire Wire Line
 	4375 4150 4500 4150
 Wire Wire Line
-	1500 2950 1400 2950
+	-3200 2550 -3125 2550
 Wire Wire Line
-	1400 2950 1400 2800
-Wire Wire Line
-	1400 2800 900  2800
-Wire Wire Line
-	1500 2250 1075 2250
+	-3125 2550 -2875 2550
 Connection ~ 4525 6700
 Wire Wire Line
 	4525 6700 4525 6800
@@ -166,9 +159,6 @@ Wire Wire Line
 	5300 4400 4750 4400
 Wire Wire Line
 	4650 4300 5300 4300
-Connection ~ 1075 800 
-Wire Wire Line
-	1075 1450 1075 800 
 Wire Wire Line
 	10600 2400 10600 2300
 Connection ~ 4800 800 
@@ -181,41 +171,30 @@ Wire Wire Line
 Wire Wire Line
 	4750 4400 4750 4550
 Connection ~ 7600 1100
-Connection ~ 1075 4975
-Connection ~ 1250 2450
 Wire Wire Line
-	1250 4975 1250 1425
-Connection ~ 2350 800 
+	1250 1425 1250 2450
 Wire Wire Line
-	975  2650 1500 2650
-Wire Wire Line
-	975  2650 975  800 
+	1250 2450 1250 4975
 Wire Wire Line
 	4650 4350 3400 4350
 Connection ~ 5950 4900
 Wire Wire Line
-	2350 4850 2350 5100
+	2350 4850 2350 4975
 Wire Wire Line
-	2350 800  2350 1950
-Wire Wire Line
-	2450 800  2450 1950
-Connection ~ 2450 800 
+	2350 4975 2350 5100
 Connection ~ 2450 4975
 Wire Wire Line
 	4650 4450 3400 4450
 Wire Wire Line
 	4750 4550 3400 4550
-Wire Wire Line
-	1500 2450 1250 2450
 Connection ~ 2350 4975
 Wire Wire Line
 	1250 800  1250 1025
 Connection ~ 1250 800 
 Wire Wire Line
-	1075 4650 1075 4975
-Connection ~ 1250 4975
+	9950 2350 9950 2400
 Wire Wire Line
-	9950 2350 9950 2475
+	9950 2400 9950 2475
 Wire Wire Line
 	4650 4300 4650 4350
 Wire Wire Line
@@ -267,7 +246,9 @@ Wire Wire Line
 Wire Wire Line
 	3775 7500 3775 7450
 Wire Wire Line
-	3475 7500 3775 7500
+	3475 7500 3625 7500
+Wire Wire Line
+	3625 7500 3775 7500
 Wire Wire Line
 	3475 7500 3475 7450
 Wire Wire Line
@@ -279,17 +260,39 @@ Wire Wire Line
 Wire Wire Line
 	2550 7100 1650 7100
 Wire Wire Line
-	5750 1100 9000 1100
+	5750 1100 7600 1100
 Wire Wire Line
-	9000 1050 9000 1850
+	7600 1100 9000 1100
 Wire Wire Line
-	9000 1850 9400 1850
+	9000 1050 9000 1100
 Wire Wire Line
-	10500 1850 10925 1850
+	9000 1100 9000 1850
 Wire Wire Line
-	975  800  5750 800 
+	9000 1850 9325 1850
 Wire Wire Line
-	1650 7300 2550 7300
+	9325 1850 9400 1850
+Wire Wire Line
+	10500 1850 10600 1850
+Wire Wire Line
+	10600 1850 10925 1850
+Wire Wire Line
+	1075 800  1250 800 
+Wire Wire Line
+	1250 800  2350 800 
+Wire Wire Line
+	2350 800  2450 800 
+Wire Wire Line
+	2450 800  4425 800 
+Wire Wire Line
+	4425 800  4800 800 
+Wire Wire Line
+	4800 800  5000 800 
+Wire Wire Line
+	5000 800  5750 800 
+Wire Wire Line
+	1650 7300 2350 7300
+Wire Wire Line
+	2350 7300 2550 7300
 Wire Wire Line
 	2550 6900 1650 6900
 Wire Wire Line
@@ -301,7 +304,9 @@ Wire Wire Line
 Wire Wire Line
 	4625 6400 4225 6400
 Wire Wire Line
-	4225 6700 4625 6700
+	4225 6700 4525 6700
+Wire Wire Line
+	4525 6700 4625 6700
 Wire Notes Line
 	3100 6300 1500 6300
 Wire Notes Line
@@ -329,18 +334,15 @@ Wire Wire Line
 Wire Wire Line
 	4625 7625 4225 7625
 Wire Wire Line
-	1075 1950 1075 4050
-Connection ~ 1075 2250
+	-3200 3050 -3125 3050
 Wire Wire Line
-	900  3275 1400 3275
-Wire Wire Line
-	1400 3275 1400 3150
-Wire Wire Line
-	1400 3150 1500 3150
+	-3125 3050 -2875 3050
 Wire Wire Line
 	4375 4050 4500 4050
 Wire Wire Line
-	4500 4050 4500 4600
+	4500 4050 4500 4150
+Wire Wire Line
+	4500 4150 4500 4600
 Wire Notes Line
 	4425 4600 3325 4600
 Wire Notes Line
@@ -356,26 +358,30 @@ Wire Wire Line
 Wire Wire Line
 	5150 4450 5150 4900
 Wire Wire Line
-	5150 4900 6050 4900
+	5150 4900 5900 4900
 Wire Wire Line
-	9325 2400 10925 2400
+	5900 4900 5950 4900
+Wire Wire Line
+	5950 4900 6000 4900
+Wire Wire Line
+	6000 4900 6050 4900
+Wire Wire Line
+	9325 2400 9950 2400
+Wire Wire Line
+	9950 2400 10600 2400
+Wire Wire Line
+	10600 2400 10925 2400
 Wire Wire Line
 	6050 4900 6050 4750
 Wire Wire Line
 	5950 4900 5950 4750
 Wire Wire Line
-	700  2975 700  3125
+	-3125 2550 -3125 2600
+Connection ~ -3125 2550
 Wire Wire Line
-	700  2575 700  2550
+	1250 4975 2350 4975
 Wire Wire Line
-	700  2550 900  2550
-Wire Wire Line
-	900  2550 900  2850
-Connection ~ 900  2800
-Wire Wire Line
-	550  3050 550  4975
-Wire Wire Line
-	550  4975 2450 4975
+	2350 4975 2450 4975
 Wire Wire Line
 	4000 2100 4000 2550
 Wire Wire Line
@@ -387,11 +393,9 @@ Wire Wire Line
 Wire Wire Line
 	9900 5850 10000 5850
 Wire Wire Line
-	2450 4850 2450 5100
-Text Label 1400 3275 0    50   ~ 0
-PB7
-Text Label 1400 2800 0    50   ~ 0
-PB6
+	2450 4850 2450 4975
+Wire Wire Line
+	2450 4975 2450 5100
 $Comp
 L GND #PWR01
 U 1 1 4F5AFC62
@@ -491,26 +495,26 @@ $EndComp
 $Comp
 L C C11
 U 1 1 4EC1290E
-P 700 3325
-F 0 "C11" H 725 3225 50  0000 L CNN
-F 1 "22p" H 725 3425 50  0000 L CNN
-F 2 "ArthurC Lib:c_0805" H 700 3325 60  0001 C CNN
-F 3 "" H 700 3325 60  0001 C CNN
-F 4 "490-1734-1-ND" H 700 3525 60  0001 C CNN "Digikey"
-	1    700  3325
-	1    0    0    -1  
+P -3400 3050
+F 0 "C11" V -3350 3125 50  0000 L CNN
+F 1 "22p" V -3350 2850 50  0000 L CNN
+F 2 "ArthurC Lib:c_0805" H -3400 3050 60  0001 C CNN
+F 3 "" H -3400 3050 60  0001 C CNN
+F 4 "490-1734-1-ND" H -3400 3250 60  0001 C CNN "Digikey"
+	1    -3400 3050
+	0    1    1    0   
 $EndComp
 $Comp
 L C C10
 U 1 1 4EC128EB
-P 700 2775
-F 0 "C10" H 725 2875 50  0000 L CNN
-F 1 "22p" H 725 2675 50  0000 L CNN
-F 2 "ArthurC Lib:c_0805" H 700 2775 60  0001 C CNN
-F 3 "" H 700 2775 60  0001 C CNN
-F 4 "490-1734-1-ND" H 700 2975 60  0001 C CNN "Digikey"
-	1    700  2775
-	1    0    0    -1  
+P -3400 2550
+F 0 "C10" V -3450 2600 50  0000 L CNN
+F 1 "22p" V -3450 2375 50  0000 L CNN
+F 2 "ArthurC Lib:c_0805" H -3400 2550 60  0001 C CNN
+F 3 "" H -3400 2550 60  0001 C CNN
+F 4 "490-1734-1-ND" H -3400 2750 60  0001 C CNN "Digikey"
+	1    -3400 2550
+	0    1    1    0   
 $EndComp
 NoConn ~ 5750 4750
 NoConn ~ 5350 4600
@@ -919,8 +923,6 @@ F 3 "" H 2900 7050 60  0001 C CNN
 	1    2900 7050
 	1    0    0    1   
 $EndComp
-Text Label 1075 2250 1    60   ~ 0
-RESET
 Text Label 3625 2850 0    40   ~ 0
 FIX
 Text Label 3625 3750 0    40   ~ 0
@@ -999,24 +1001,24 @@ $EndComp
 $Comp
 L SW_PUSH SW1
 U 1 1 4DCA7D67
-P 1075 4350
-F 0 "SW1" H 1225 4460 50  0000 C CNN
-F 1 "SW_PUSH" H 1075 4270 50  0000 C CNN
-F 2 "ArthurC Lib:SW_SMD" H 1075 4350 60  0001 C CNN
-F 3 "" H 1075 4350 60  0001 C CNN
-F 4 "" H 1325 4560 60  0001 C CNN "DigiKey"
-	1    1075 4350
-	0    -1   -1   0   
+P -3000 2300
+F 0 "SW1" H -2850 2410 50  0000 C CNN
+F 1 "RST" H -3000 2220 50  0000 C CNN
+F 2 "ArthurC Lib:SW_SMD" H -3000 2300 60  0001 C CNN
+F 3 "" H -3000 2300 60  0001 C CNN
+F 4 "" H -2750 2510 60  0001 C CNN "DigiKey"
+	1    -3000 2300
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R7
 U 1 1 4DCA7BFC
-P 1075 1700
-F 0 "R7" H 1125 1900 50  0000 C CNN
-F 1 "10k" V 1075 1700 50  0000 C CNN
-F 2 "ArthurC Lib:r_0805" H 1075 1700 60  0001 C CNN
-F 3 "" H 1075 1700 60  0001 C CNN
-	1    1075 1700
+P -2600 1575
+F 0 "R7" H -2550 1775 50  0000 C CNN
+F 1 "10k" V -2600 1575 50  0000 C CNN
+F 2 "ArthurC Lib:r_0805" H -2600 1575 60  0001 C CNN
+F 3 "" H -2600 1575 60  0001 C CNN
+	1    -2600 1575
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1055,17 +1057,6 @@ F 1 "1u" H 10650 2000 50  0000 L CNN
 F 2 "ArthurC Lib:c_0805" H 10600 2100 60  0001 C CNN
 F 3 "" H 10600 2100 60  0001 C CNN
 	1    10600 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L ATMEGA8-AI IC1
-U 1 1 4DCA5EC5
-P 2400 3250
-F 0 "IC1" H 1700 4400 50  0000 L BNN
-F 1 "ATMEGA328" H 1750 2500 50  0000 L BNN
-F 2 "ArthurC Lib:TQFP32" H 2925 1675 50  0001 C CNN
-F 3 "" H 2400 3250 60  0001 C CNN
-	1    2400 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1143,12 +1134,12 @@ Wire Notes Line
 $Comp
 L CRYSTAL X1
 U 1 1 5313C3B2
-P 900 3050
-F 0 "X1" V 975 3300 60  0000 C CNN
-F 1 "8MHz" V 875 3375 60  0000 C CNN
-F 2 "ArthurC Lib:Xtal_SMD3" H 900 3050 60  0001 C CNN
-F 3 "" H 900 3050 60  0000 C CNN
-	1    900  3050
+P -3125 2800
+F 0 "X1" V -3300 2875 60  0000 C CNN
+F 1 "8MHz" V -2950 2925 60  0000 C CNN
+F 2 "ArthurC Lib:Xtal_SMD3" H -3125 2800 60  0001 C CNN
+F 3 "" H -3125 2800 60  0000 C CNN
+	1    -3125 2800
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -1199,29 +1190,10 @@ F 3 "" H 5300 4550 60  0000 C CNN
 	1    5300 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1500 2550 1400 2550
-Wire Wire Line
-	1400 2550 1400 1700
-Wire Wire Line
-	1400 1700 1850 1700
-Wire Wire Line
-	1850 1700 1850 1550
 Connection ~ 5000 800 
 NoConn ~ 4625 6600
 Text Label 6075 6825 0    40   ~ 0
 3Vgps
-$Comp
-L I/O B1
-U 1 1 535FE0F7
-P 1850 1400
-F 0 "B1" V 2025 1375 50  0000 L CNN
-F 1 "AREF" V 1925 1400 50  0000 C CNN
-F 2 "ArthurC Lib:I%2fO" H 1850 1400 60  0001 C CNN
-F 3 "" H 1850 1400 60  0000 C CNN
-	1    1850 1400
-	0    -1   -1   0   
-$EndComp
 $Comp
 L CONN_2 P2
 U 1 1 535FEBF6
@@ -1254,14 +1226,18 @@ External Battery\n3V Max.
 Text Label 5150 3950 0    60   ~ 0
 3V3
 Wire Wire Line
-	9200 1100 10725 1100
+	9200 1100 9900 1100
+Wire Wire Line
+	9900 1100 10725 1100
 Wire Wire Line
 	10725 1100 10725 1050
 Wire Wire Line
 	9900 1150 9900 1100
 Connection ~ 9900 1100
 Wire Wire Line
-	10925 1050 10925 1900
+	10925 1050 10925 1850
+Wire Wire Line
+	10925 1850 10925 1900
 $Comp
 L C_POL C3
 U 1 1 536B66B9
@@ -1277,4 +1253,122 @@ Connection ~ 10925 1850
 Wire Wire Line
 	10925 2400 10925 2350
 Connection ~ 10600 2400
+$Comp
+L ATMEGA32U4-A U?
+U 1 1 5381C3CC
+P -1350 3850
+F 0 "U?" H -2300 5550 40  0000 C CNN
+F 1 "ATMEGA32U4-A" H -650 2350 40  0000 C CNN
+F 2 "TQFP44" H -1350 3850 35  0000 C CIN
+F 3 "" H -250 4950 60  0000 C CNN
+	1    -1350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2875 2550 -2875 2700
+Wire Wire Line
+	-2875 2700 -2500 2700
+Wire Wire Line
+	-2500 2900 -2875 2900
+Wire Wire Line
+	-2875 2900 -2875 3050
+Wire Wire Line
+	-3675 2300 -3675 2550
+Wire Wire Line
+	-3675 2550 -3675 2800
+Wire Wire Line
+	-3675 2800 -3675 3050
+Wire Wire Line
+	-3675 3050 -3675 3250
+$Comp
+L GND #PWR?
+U 1 1 53820070
+P -3675 3250
+F 0 "#PWR?" H -3675 3250 30  0001 C CNN
+F 1 "GND" H -3675 3180 30  0001 C CNN
+F 2 "" H -3675 3250 60  0001 C CNN
+F 3 "" H -3675 3250 60  0001 C CNN
+	1    -3675 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-3600 2550 -3675 2550
+Connection ~ -3675 2800
+Wire Wire Line
+	-3600 3050 -3675 3050
+Connection ~ -3675 3050
+Text Label -2600 2200 1    60   ~ 0
+RESET
+Wire Wire Line
+	-3300 2300 -3675 2300
+Connection ~ -3675 2550
+Wire Wire Line
+	-2700 2300 -2600 2300
+Wire Wire Line
+	-2600 2300 -2500 2300
+Wire Wire Line
+	-2600 1825 -2600 2300
+Connection ~ -2600 2300
+Text Label -3675 3000 1    60   ~ 0
+GND
+Text Label -2800 2700 0    50   ~ 0
+XTAL1
+Text Label -2800 2900 0    50   ~ 0
+XTAL2
+Text Label -2425 1225 2    60   ~ 0
+3V3
+Wire Wire Line
+	-2600 1325 -2600 1225
+Wire Wire Line
+	-2600 1225 -2425 1225
+Wire Wire Line
+	-1550 2050 -1550 1950
+Wire Wire Line
+	-1550 1950 -1450 1950
+Wire Wire Line
+	-1450 1950 -1200 1950
+Wire Wire Line
+	-1200 1950 -1100 1950
+Wire Wire Line
+	-1100 1950 -1100 2050
+Wire Wire Line
+	-1200 2050 -1200 1950
+Connection ~ -1200 1950
+Wire Wire Line
+	-1450 2050 -1450 1950
+Connection ~ -1450 1950
+Text Label -1250 1950 2    60   ~ 0
+3V3
+Connection ~ 2450 800 
+Wire Wire Line
+	2450 800  2450 1950
+Connection ~ 2350 800 
+Wire Wire Line
+	2350 800  2350 1950
+Connection ~ 1250 4975
+Connection ~ 1250 2450
+Wire Wire Line
+	1500 2450 1250 2450
+$Comp
+L ATMEGA8-AI IC1
+U 1 1 4DCA5EC5
+P 2400 3250
+F 0 "IC1" H 1700 4400 50  0000 L BNN
+F 1 "ATMEGA328" H 1750 2500 50  0000 L BNN
+F 2 "ArthurC Lib:TQFP32" H 2925 1675 50  0001 C CNN
+F 3 "" H 2400 3250 60  0001 C CNN
+	1    2400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB-MINI-B CON?
+U 1 1 538233D1
+P 425 -575
+F 0 "CON?" H 175 -125 60  0000 C CNN
+F 1 "USB-MINI-B" H 375 -1075 60  0000 C CNN
+F 2 "" H 425 -575 60  0000 C CNN
+F 3 "" H 425 -575 60  0000 C CNN
+	1    425  -575
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC

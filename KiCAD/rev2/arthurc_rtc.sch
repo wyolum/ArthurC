@@ -1,6 +1,8 @@
 EESchema Schematic File Version 2
 LIBS:arthurc
 LIBS:power
+LIBS:atmel
+LIBS:conn
 LIBS:arthurc-cache
 EELAYER 24 0
 EELAYER END
