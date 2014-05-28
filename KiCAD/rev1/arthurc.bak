@@ -945,9 +945,9 @@ Text Label 3625 3250 0    40   ~ 0
 TXD
 Text Label 3625 3350 0    40   ~ 0
 1pps
-Text Label 3625 3850 0    40   ~ 0
+Text Label 3450 3850 0    40   ~ 0
 LED2
-Text Label 3625 3550 0    40   ~ 0
+Text Label 3450 3550 0    40   ~ 0
 LED1
 Text Label 10025 2400 0    60   ~ 0
 GND
@@ -1281,4 +1281,26 @@ Text Label 3450 2950 0    50   ~ 0
 A7
 Text Label 1450 1700 0    50   ~ 0
 AREF
+$Comp
+L I/O LED1
+U 1 1 538094E5
+P 3775 3550
+F 0 "LED1" H 3855 3550 40  0000 L CNN
+F 1 "I/O" H 3775 3605 30  0001 C CNN
+F 2 "ArthurC Lib:I%2fO" H 3775 3550 60  0001 C CNN
+F 3 "" H 3775 3550 60  0001 C CNN
+	1    3775 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L I/O LED2
+U 1 1 53809775
+P 3775 3850
+F 0 "LED2" H 3855 3850 40  0000 L CNN
+F 1 "I/O" H 3775 3905 30  0001 C CNN
+F 2 "ArthurC Lib:I%2fO" H 3775 3850 60  0001 C CNN
+F 3 "" H 3775 3850 60  0001 C CNN
+	1    3775 3850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
