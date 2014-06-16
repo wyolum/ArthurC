@@ -3,6 +3,7 @@ LIBS:arthurc
 LIBS:power
 LIBS:atmel
 LIBS:conn
+LIBS:device
 LIBS:arthurc-cache
 EELAYER 24 0
 EELAYER END
